@@ -1,0 +1,11 @@
+/report
+/test
+
+# ignore python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ignore virtual environment
+venv/

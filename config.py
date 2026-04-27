@@ -1,0 +1,1 @@
+MODEL_NAME = "insightface"  # insightface | dlib | facenet

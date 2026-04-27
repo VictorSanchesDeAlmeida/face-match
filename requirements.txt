@@ -1,0 +1,16 @@
+# Core
+numpy
+opencv-python
+pillow
+
+# InsightFace
+insightface
+onnxruntime
+
+# Dlib (face_recognition)
+face_recognition
+
+# FaceNet
+torch
+torchvision
+facenet-pytorch
