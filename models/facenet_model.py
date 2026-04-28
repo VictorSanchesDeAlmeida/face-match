@@ -5,7 +5,7 @@ from PIL import Image
 
 class FaceNetModel:
     def __init__(self):
-        self.device = torch.device("cpu")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu") # Para usar GPU, caso disponível 
         self.model = InceptionResnetV1(pretrained='vggface2').eval().to(self.device)
 
         self.transform = transforms.Compose([
